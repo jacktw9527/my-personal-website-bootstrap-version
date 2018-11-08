@@ -1,5 +1,5 @@
 .my-nav{
-  background: #FF6600;
+  background: #000;
 }
 
 .my-nav ul{
@@ -8,4 +8,26 @@
 
 body{
   padding-top: 70px;
+}
+
+#bs-example-navbar-collapse-1 li{
+  padding: 10px;
+}
+
+#bs-example-navbar-collapse-1 a:hover{
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: .4s linear;
+  -moz-transition: .4s linear;
+  -ms-transition: .4s linear;
+  -o-transition: .4s linear;
+  transition: .4s linear;
+}
+
+.my-nav a .navbar-brand{
+  color: #ffffff;
+}
+
+#my-work {
+  margin-bottom: 30px;
 }
